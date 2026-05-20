@@ -41,8 +41,8 @@ Simplify the previous expression with it, and collect like terms <img src="https
 <h2 class="anchored" data-anchor-id="the-proof-for-squares">The Proof for Squares</h2>
 <p>The proof for this fact is arguably simple. It will be a proof by contradiction leveraging the irrationality of the square root of 3.<br>
 So first a quick sidetrack: the irrationality of the square root of 3.</p>
-<section id="irrationality-of-sqrt3" class="level3">
-<h3 class="anchored" data-anchor-id="irrationality-of-sqrt3">Irrationality of <img src="https://latex.codecogs.com/png.latex?%5Csqrt%7B3%7D"></h3>
+<section id="the-irrationality-of-sqrt3" class="level3">
+<h3 class="anchored" data-anchor-id="the-irrationality-of-sqrt3">The Irrationality of <img src="https://latex.codecogs.com/png.latex?%5Csqrt%7B3%7D"></h3>
 <p>Suppose, for the sake of contradiction, that <img src="https://latex.codecogs.com/png.latex?%5Csqrt%7B3%7D"> is rational.<br>
 Then there are some natural numbers <img src="https://latex.codecogs.com/png.latex?p"> and <img src="https://latex.codecogs.com/png.latex?q"> such that <img src="https://latex.codecogs.com/png.latex?%5Csqrt%7B3%7D%20=%20%5Cfrac%7Bp%7D%7Bq%7D">. Then, <img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Balign*%7D%0A%5Csqrt%7B3%7D%20&amp;=%20%5Cfrac%7Bp%7D%7Bq%7D%5C%5C%0A3%20&amp;=%20%5Cfrac%7Bp%5E%7B2%7D%7D%7Bq%5E%7B2%7D%7D%5C%5C%0A3q%5E%7B2%7D%20&amp;=%20p%5E%7B2%7D%5C%5C%0A%5Cend%7Balign*%7D"> <img src="https://latex.codecogs.com/png.latex?p%5E%7B2%7D"> is a natural number, since <img src="https://latex.codecogs.com/png.latex?p"> is, and 3 is a prime.<br>
 Thus, by the fundamental theorem of arithmetic, for <img src="https://latex.codecogs.com/png.latex?p%5E%7B2%7D"> to be a multiple of 3<br>

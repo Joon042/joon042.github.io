@@ -60,7 +60,7 @@ Hence, it has been demonstrated that the sum for an arbitrary 3 by 3 magic squar
 The proof for this fact is arguably simple. It will be a proof by contradiction leveraging the irrationality of the square root of 3.  
 So first a quick sidetrack: the irrationality of the square root of 3.
 
-### Irrationality of $\sqrt{3}$
+### The Irrationality of $\sqrt{3}$
 Suppose, for the sake of contradiction, that $\sqrt{3}$ is rational.  
 Then there are some natural numbers $p$ and $q$ such that $\sqrt{3} = \frac{p}{q}$.
 Then,
