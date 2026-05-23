@@ -85,28 +85,80 @@ q &= 3m\\
 \frac{p}{q} = &\frac{3n}{3m} = \frac{n}{m}
 \end{align*}
 Therefore, if $\sqrt{3}$ could be written as a rational number, then it could
-always be written as a rational number with smaller parts ad infinitum, which is impossible.
+always be written as a rational number with strictly smaller parts ad infinitum.
+This seems fine, but this is actually not fine.  
+Remember that the set of natural numbers with the standard numeric ordering $\leq$ is a well-ordered set, 
+meaning that every non-empty subset contains a least element. This implies that
+*no* rational number can have its parts be a strictly descending chain at infinitum.  
+Thus, by way of contradiction, the $\sqrt{3}$ can't be rational.
 
 
-Now back to magic square of sqaures.
-Suppose, for the sake of contradiction, that there is a magic square of squares whose sum, let it be $S$, is a perfect square itself.
+## The Proof for Squares
+Now back to magic square of squares.  
+Suppose, for the sake of contradiction, that there is a magic square of squares whose sum, let it be $S$, is a perfect square.
+$$
+\begin{array}{c|c|c}
+A & B & C \\ \hline
+D & E & F \\ \hline
+G & H & I
+\end{array}
+$$  
+$A = a^{2},\ B = b^{2},\ C = c^{2},\ D = d^{2},\ E = e^{2},\ F = f^{2},\ G = g^{2},\ H = h^{2},\ I = i^{2},\ S = s^{2}$  
+For some natual number $a, b, c, d, e, f, g, h, i, s$  
 Then,
 \begin{align*}
-&\text{PLACEHOLDER\_EXPRESSION}
-\end{align*}
-
+S &= 3E\ (\because \text{S is the sum of a magic square})\\
+s^{2} &= 3e^{2}\\
+\end{align*}  
+Dividing both sides by $e^{2}$ we have  
+\begin{align*}
+&\frac{s^{2}}{e^{2}} = 3\\
+&\Rightarrow \left(\frac{s}{e}\right)^{2} = 3\\
+&\Rightarrow \frac{s}{e} = \sqrt{3} \\
+\end{align*}  
+For some natual number e, and s
+This, however, is impossible as it contradics the irrationality of $\sqrt{3}$.  
+Thus, by way of contradiction, there are no magic square of squares whose sum is also a (perfect) square.
 
 # Observations & Generalizations
-The proof for squares seems to be easily generalizable to any even power and with a clever insight to all perfect powers. This next section does exactly this.
+The proof for squares seems to be easily generalizable to any even power and with a clever insight to all even perfect powers. This next section does exactly this.
 
 ## For All Even Powers
-
+Again, suppose, for the sake of contradiction, that there is a magic square of squares whose sum, let it be $S$, is a perfect even power.
+That is
+$$
+\begin{array}{c|c|c}
+A & B & C \\ \hline
+D & E & F \\ \hline
+G & H & I
+\end{array}
+$$  
+$A = a^{2},\ B = b^{2},\ C = c^{2},\ D = d^{2},\ E = e^{2},\ F = f^{2},\ G = g^{2},\ H = h^{2},\ I = i^{2},\ S = s^{2n}$  
+For some natual number $a, b, c, d, e, f, g, h, i, s, n$  
+Then,
+\begin{align*}
+S &= 3E\ (\because \text{S is the sum of a magic square})\\
+s^{2n} &= 3e^{2}\\
+\end{align*}  
+Dividing both sides by $e^{2}$ we have  
+\begin{align*}
+&\frac{s^{2n}}{e^{2}} = 3\\
+&\Rightarrow \frac{(s^{n})^{2}}{e^{2}} = 3\ (\because a^{bc} = (a^{b})^{c})\\
+&\Rightarrow \left(\frac{s^{n}}{e}\right)^{2} = 3\\
+&\Rightarrow \frac{s^{n}}{e} = \sqrt{3}\\
+&\Rightarrow \frac{\sigma}{e} = \sqrt{3}\ (\text{where}\ \sigma := s^{n})
+\end{align*}  
+As the natural numbers is closed under multiplication, $\sigma = s^{n}$ must also be a natural number.  
+Thus, $\frac{\sigma}{e} = \sqrt{3}$ for some natual number e, and $\sigma$.  
+This, however, is impossible as it contradics the irrationality of $\sqrt{3}$.  
+Thus, by way of contradiction, there are no magic square of squares whose sum is also a (perfect) even power.
 
 ## For Odd Powers
 
-A similar proof was thought of for all odd powers, but after further inspection the proof didn't work so unfortunately there isn't one for all odd powers.  
-In fact, contrary to expectations any odd power can't be disproven to be the sum only leverging the irrationality of the square root of 3.
-There might be other ways of disproving specific odd powers of all odd powers all together, but it hasn't been found.
+A similar proof was thought of for all odd powers, but after further inspection the proof failed, thus, there isn't one for all odd powers.  
+In fact, contrary to expectations any odd power can't be disproven to be the sum only leverging the irrationality of $\sqrt{3}$.
+There might be other ways of disproving specific odd powers of all odd powers all together.  
+Though, I haven't, yet, been successful in finding them.
 
 # Conclusion
 With these simple proof the sum for a 3x3 magic square is an odd power, like $1, 2, 3, 5, 6, 7, 8, 10, 11, 12, \text{etc.}$
