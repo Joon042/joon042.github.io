@@ -1,5 +1,5 @@
 ---
-title: "The Sum of a Magic Square of Squares Must Be an Odd-Power"
+title: "The Sum of a Magic Square of Squares Can't be an Even-Power"
 author: "Hyun Joon"
 date: "2026-05-10"
 categories: ["magic squares"]
