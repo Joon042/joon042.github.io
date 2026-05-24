@@ -1,25 +1,3 @@
----
-title: "Rudimentary Code for Searching Magic Square of Squares"
-author: "Hyun Joon"
-date: "2026-05-10"
-categories: ["magic squares"]
-format: html
----
-
-# Computers
-The first attempt that one can think of is using computers to just get a magic square of squares.  
-Ignoring the fact that it has been done(and upto the trillions) to do so we'd need a program.  
-Since the program doesn't need to be heavily optimized we'll just write it in python.
-
-## The program
-This is a simple python code for finding magic square of squares.
-A naïve approach to be sure but spamming for loops works well enough.  
-The method used is to look for magic square of squares using the pythagorean quadruples.
-For Pythagorean quadruples can be parametrically generated with the following formula.
-$$a = (m²+n²-p²-q²),\ b = 2(mq+np),\ c = 2(nq-mp),\ d = m²+n²+p²+q²$$
-
-```python
-
 """
 ms.py — Exhaustive magic-square-of-squares search.
 
@@ -525,11 +503,3 @@ if __name__ == "__main__":
         )
     else:
         print("\n(pie chart skipped — pass --plot to generate one)")
-        
-```
-
-# Results
-
-![Here are the results when d = 1000 in a pie chart.](pie_chart_dmax1000.png)
-
-[Here are the results when d = 10,000 in a pie chart.]
