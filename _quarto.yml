@@ -10,7 +10,7 @@ website:
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/zune-06
+        href: https://github.com/Joon042
 format:
   html:
     theme:
