@@ -12,7 +12,7 @@
 <generator>quarto-1.9.37</generator>
 <lastBuildDate>Sat, 09 May 2026 15:00:00 GMT</lastBuildDate>
 <item>
-  <title>The Sum of a Magic Square of Squares Can’t be an Even-Power</title>
+  <title>The Sum of a Magic Square of Squares Can’t Be an Even-Power</title>
   <dc:creator>Hyun Joon</dc:creator>
   <link>https://your-website-url.example.com/posts/proof1/</link>
   <description><![CDATA[ 
@@ -61,7 +61,8 @@ For some natual number <img src="https://latex.codecogs.com/png.latex?a,%20b,%20
 Then, <img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Balign*%7D%0AS%20&amp;=%203E%5C%20(%5Cbecause%20%5Ctext%7BS%20is%20the%20sum%20of%20a%20magic%20square%7D)%5C%5C%0As%5E%7B2%7D%20&amp;=%203e%5E%7B2%7D%5C%5C%0A%5Cend%7Balign*%7D"><br>
 Dividing both sides by <img src="https://latex.codecogs.com/png.latex?e%5E%7B2%7D"> we have<br>
 <img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Balign*%7D%0A&amp;%5Cfrac%7Bs%5E%7B2%7D%7D%7Be%5E%7B2%7D%7D%20=%203%5C%5C%0A&amp;%5CRightarrow%20%5Cleft(%5Cfrac%7Bs%7D%7Be%7D%5Cright)%5E%7B2%7D%20=%203%5C%5C%0A&amp;%5CRightarrow%20%5Cfrac%7Bs%7D%7Be%7D%20=%20%5Csqrt%7B3%7D%20%5C%5C%0A%5Cend%7Balign*%7D"><br>
-For some natual number e, and s This, however, is impossible as it contradics the irrationality of <img src="https://latex.codecogs.com/png.latex?%5Csqrt%7B3%7D">.<br>
+For some natual number e, and s.<br>
+This, however, is impossible as it contradics the irrationality of <img src="https://latex.codecogs.com/png.latex?%5Csqrt%7B3%7D">.<br>
 Thus, by way of contradiction, there are no magic square of squares whose sum is also a (perfect) square.</p>
 </section>
 </section>

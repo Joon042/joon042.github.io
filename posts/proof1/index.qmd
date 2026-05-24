@@ -1,5 +1,5 @@
 ---
-title: "The Sum of a Magic Square of Squares Can't be an Even-Power"
+title: "The Sum of a Magic Square of Squares Can't Be an Even-Power"
 author: "Hyun Joon"
 date: "2026-05-10"
 categories: ["magic squares"]
@@ -116,7 +116,7 @@ Dividing both sides by $e^{2}$ we have
 &\Rightarrow \left(\frac{s}{e}\right)^{2} = 3\\
 &\Rightarrow \frac{s}{e} = \sqrt{3} \\
 \end{align*}  
-For some natual number e, and s
+For some natual number e, and s.  
 This, however, is impossible as it contradics the irrationality of $\sqrt{3}$.  
 Thus, by way of contradiction, there are no magic square of squares whose sum is also a (perfect) square.
 
