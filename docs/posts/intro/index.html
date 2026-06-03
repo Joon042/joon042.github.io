@@ -222,6 +222,26 @@ No 3 by 3 magic square of squares has been found, but other magic square of squa
 11^{2} &amp; 77^{2} &amp; 8^{2} &amp; 49^{2}
 \end{array}
 \]</span></p>
+</section>
+<section id="the-most-general-case" class="level1">
+<h1>3. The Most General Case</h1>
+<p>A magic square is just a grid of numbers that match a certain criterion, so a kind of most general square can be constructed. For the sake of breavity(and the ease of writing them in quarto) I’ll write them in a matrix and use matrix notation instead of a grid or an array.<br>
+So, a magic square can be written as a matrix of natural numbers. <span class="math display">\[
+\begin{bmatrix}
+a_{11} &amp; a_{21} &amp; \cdots &amp; a_{1n} \\
+a_{12} &amp; a_{22} &amp; \cdots &amp; a_{1n} \\
+\vdots &amp; \vdots &amp;\ddots &amp; \vdots \\
+a_{n1} &amp; a_{n2} &amp;\cdots &amp; a_{nn}
+\end{bmatrix}
+\]</span></p>
+<p>Such that for some function <span class="math inline">\(f: \mathbb{N} \to \mathbb{N}\)</span> and <span class="math inline">\(g:
+\mathbb{N}^{n} \to \mathbb{N}\)</span> suitably applying f then g to the matrix the rows, columns, and diagonals evaluate to some single value <span class="math inline">\(S\)</span>. <span class="math display">\[\begin{align*}
+&amp;g(f(a_{i1}), f(a_{i2}), \cdots, f(a_{in}))\ (1 \leq i \leq n) \\
+= &amp;g(f(a_{1j}), f(a_{2j}), \cdots, f(a_{nj}))\ (1 \leq j \leq n) \\
+= &amp;g(f(a_{11}), f(a_{22}), \cdots, f(a_{nn}))\\
+= &amp;g(f(a_{1n}), f(a_{2n-1}), \cdots, f(a_{n1}))\\
+= &amp;S
+\end{align*}\]</span></p>
 
 
 </section>

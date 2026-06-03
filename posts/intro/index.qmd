@@ -46,3 +46,29 @@ $$
 11^{2} & 77^{2} & 8^{2} & 49^{2}
 \end{array}
 $$  
+
+# 3. The Most General Case
+
+A magic square is just a grid of numbers that match a certain criterion, so a kind of most general square can be constructed.
+For the sake of breavity(and the ease of writing them in quarto) I'll write them in a matrix and use matrix notation instead of a grid or an array.  
+So, a magic square can be written as a matrix of natural numbers.
+$$
+\begin{bmatrix}
+a_{11} & a_{21} & \cdots & a_{1n} \\
+a_{12} & a_{22} & \cdots & a_{1n} \\
+\vdots & \vdots &\ddots & \vdots \\
+a_{n1} & a_{n2} &\cdots & a_{nn}
+\end{bmatrix}
+$$
+
+Such that for some function $f: \mathbb{N} \to \mathbb{N}$ and $g:
+\mathbb{N}^{n} \to \mathbb{N}$ suitably applying f then g to the matrix the
+rows, columns, and diagonals evaluate to some single value $S$.
+\begin{align*}
+&g(f(a_{i1}), f(a_{i2}), \cdots, f(a_{in}))\ (1 \leq i \leq n) \\
+= &g(f(a_{1j}), f(a_{2j}), \cdots, f(a_{nj}))\ (1 \leq j \leq n) \\
+= &g(f(a_{11}), f(a_{22}), \cdots, f(a_{nn}))\\
+= &g(f(a_{1n}), f(a_{2n-1}), \cdots, f(a_{n1}))\\
+= &S
+\end{align*}
+
