@@ -9,8 +9,30 @@
 <link>https://your-website-url.example.com/</link>
 <atom:link href="https://your-website-url.example.com/index.xml" rel="self" type="application/rss+xml"/>
 <description>A blog built with Quarto</description>
-<generator>quarto-1.9.37</generator>
-<lastBuildDate>Sat, 09 May 2026 15:00:00 GMT</lastBuildDate>
+<generator>quarto-1.11.9</generator>
+<lastBuildDate>Sat, 07 Nov 2026 15:00:00 GMT</lastBuildDate>
+<item>
+  <title>Chariklo</title>
+  <dc:creator>Hyun Joon</dc:creator>
+  <link>https://your-website-url.example.com/posts/chariklo_first/first.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="placeholder" class="level1">
+<h1>placeholder</h1>
+<p>placeholder</p>
+
+
+</section>
+
+ ]]></description>
+  <category>chariklo</category>
+  <guid>https://your-website-url.example.com/posts/chariklo_first/first.html</guid>
+  <pubDate>Sat, 07 Nov 2026 15:00:00 GMT</pubDate>
+</item>
 <item>
   <title>The Sum of a Magic Square of Squares Can’t Be an Even-Power</title>
   <dc:creator>Hyun Joon</dc:creator>

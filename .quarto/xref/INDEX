@@ -28,5 +28,8 @@
   },
   "posts/code/index.qmd": {
     "index.html": "3d0c6c8d"
+  },
+  "posts/chariklo_first/first.qmd": {
+    "first.html": "9c73cc1e"
   }
 }
