@@ -31,5 +31,14 @@
   },
   "posts/chariklo_first/first.qmd": {
     "first.html": "9c73cc1e"
+  },
+  "posts/char_three/three.qmd": {
+    "three.html": "107946f0"
+  },
+  "posts/char_two/two.qmd": {
+    "two.html": "33193b8c"
+  },
+  "posts/char_four/four.qmd": {
+    "four.html": "beaea050"
   }
 }

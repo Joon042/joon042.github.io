@@ -25,4 +25,4 @@ Pretty unremarkable.(if you ask me)
 Mathematical expressions.
 (finally something significant)  
 The famous Euler product formula.
-$$\zeta(s) = \sum_{n=1}^{\infty} \frac{1}{n^s} = \prod_{p} \frac{1}{1 - p^{-s}}$$
+$$\sum_{n=1}^{\infty} \frac{1}{n^s} = \prod_{p} \frac{1}{1 - p^{-s}}$$

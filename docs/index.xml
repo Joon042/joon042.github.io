@@ -10,7 +10,67 @@
 <atom:link href="https://your-website-url.example.com/index.xml" rel="self" type="application/rss+xml"/>
 <description>A blog built with Quarto</description>
 <generator>quarto-1.11.9</generator>
-<lastBuildDate>Sat, 07 Nov 2026 15:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 09 Nov 2026 15:00:00 GMT</lastBuildDate>
+<item>
+  <title>Chariklo</title>
+  <dc:creator>Hyun Joon</dc:creator>
+  <link>https://your-website-url.example.com/posts/char_four/four.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+
+ ]]></description>
+  <category>chariklo</category>
+  <guid>https://your-website-url.example.com/posts/char_four/four.html</guid>
+  <pubDate>Mon, 09 Nov 2026 15:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Chariklo</title>
+  <dc:creator>Hyun Joon</dc:creator>
+  <link>https://your-website-url.example.com/posts/char_three/three.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="analysis" class="level1">
+
+
+
+</section>
+
+ ]]></description>
+  <category>chariklo</category>
+  <guid>https://your-website-url.example.com/posts/char_three/three.html</guid>
+  <pubDate>Mon, 09 Nov 2026 15:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Chariklo</title>
+  <dc:creator>Hyun Joon</dc:creator>
+  <link>https://your-website-url.example.com/posts/char_two/two.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="placeholder" class="level1">
+
+
+
+</section>
+
+ ]]></description>
+  <category>chariklo</category>
+  <guid>https://your-website-url.example.com/posts/char_two/two.html</guid>
+  <pubDate>Mon, 09 Nov 2026 15:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Chariklo</title>
   <dc:creator>Hyun Joon</dc:creator>
@@ -21,9 +81,21 @@
 
 
 
-<section id="placeholder" class="level1">
-<h1>placeholder</h1>
-<p>placeholder</p>
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>Chariklo, discoverd in 2013, is an asteroid that has a ring.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://your-website-url.example.com/posts/chariklo_first/10199_Chariklo_Hubble.jpg" class="img-fluid figure-img"></p>
+<figcaption>Image of Chariklo taken by the Hubble telescope</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://your-website-url.example.com/posts/chariklo_first/10199_Chariklo_il.png" class="img-fluid figure-img"></p>
+<figcaption>Illustration of Chariklo on NASA</figcaption>
+</figure>
+</div>
 
 
 </section>
@@ -3404,7 +3476,7 @@ Pretty unremarkable.(if you ask me)</p>
 <section id="section-2" class="level1">
 <h1>Section 2</h1>
 <p>Mathematical expressions. (finally something significant)<br>
-The famous Euler product formula. <img src="https://latex.codecogs.com/png.latex?%5Czeta(s)%20=%20%5Csum_%7Bn=1%7D%5E%7B%5Cinfty%7D%20%5Cfrac%7B1%7D%7Bn%5Es%7D%20=%20%5Cprod_%7Bp%7D%20%5Cfrac%7B1%7D%7B1%20-%20p%5E%7B-s%7D%7D"></p>
+The famous Euler product formula. <img src="https://latex.codecogs.com/png.latex?%5Csum_%7Bn=1%7D%5E%7B%5Cinfty%7D%20%5Cfrac%7B1%7D%7Bn%5Es%7D%20=%20%5Cprod_%7Bp%7D%20%5Cfrac%7B1%7D%7B1%20-%20p%5E%7B-s%7D%7D"></p>
 
 
 </section>

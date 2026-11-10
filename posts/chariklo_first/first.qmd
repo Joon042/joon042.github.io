@@ -6,6 +6,11 @@ categories: ["chariklo"]
 format: html
 ---
 
-# placeholder
+# Introduction
 
-placeholder
+Chariklo, discoverd in 2013, is an asteroid that has a ring.
+
+
+![Image of Chariklo taken by the Hubble telescope](10199_Chariklo_Hubble.jpg)
+
+![Illustration of Chariklo on NASA](10199_Chariklo_il.png)
