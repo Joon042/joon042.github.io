@@ -62,7 +62,10 @@
 
 <section id="preliminaries" class="level1">
 <h1>Preliminaries</h1>
-<p>Here are the assumptions and hypothesis. For the sake of simplicity chariklo is assumed to be a perfect sphere. It is in space, so there is no air resistance by default. The hypothesis is that the rings of Chariklo are made from debris, ejected from its rotation, colliding with each other. Because of the above assumptions it is easy to see that energy and momentum is conserved during collision unless it is inelastic.</p>
+<p>Here are the assumptions and hypothesis.<br>
+For the sake of simplicity chariklo is assumed to be a perfect sphere.<br>
+It is in space, so there is no air resistance by default.<br>
+The hypothesis is that the rings of Chariklo are made from debris, ejected from its rotation, colliding with each other. Because of the above assumptions it is easy to see that energy and momentum is conserved during collision unless it is inelastic.</p>
 
 
 </section>
@@ -97,6 +100,8 @@
 <figcaption>Illustration of Chariklo on NASA</figcaption>
 </figure>
 </div>
+<p>There are many possible ways these rings could have formed. The working hypothesis here is that it is the result of Chariklo’s rotation ejecting dedris which collided to form the rings.<br>
+The next few pages will be dedicated to some inquiry into this hypothesis.</p>
 
 
 </section>
@@ -3478,6 +3483,11 @@ Pretty unremarkable.(if you ask me)</p>
 <h1>Section 2</h1>
 <p>Mathematical expressions. (finally something significant)<br>
 The famous Euler product formula. <img src="https://latex.codecogs.com/png.latex?%5Csum_%7Bn=1%7D%5E%7B%5Cinfty%7D%20%5Cfrac%7B1%7D%7Bn%5Es%7D%20=%20%5Cprod_%7Bp%7D%20%5Cfrac%7B1%7D%7B1%20-%20p%5E%7B-s%7D%7D"></p>
+</section>
+<section id="section-3" class="level1">
+<h1>Section 3</h1>
+<p>The derivation of the Gamma function is always never satisfactory. I think I’ll research it myself.<br>
+The Gamma function is in some sense the “natural” way of extending the factorial.</p>
 
 
 </section>

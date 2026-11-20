@@ -11,7 +11,7 @@
     "href": "posts/char_two/two.html",
     "title": "Chariklo",
     "section": "",
-    "text": "Preliminaries\nHere are the assumptions and hypothesis. For the sake of simplicity chariklo is assumed to be a perfect sphere. It is in space, so there is no air resistance by default. The hypothesis is that the rings of Chariklo are made from debris, ejected from its rotation, colliding with each other. Because of the above assumptions it is easy to see that energy and momentum is conserved during collision unless it is inelastic."
+    "text": "Preliminaries\nHere are the assumptions and hypothesis.\nFor the sake of simplicity chariklo is assumed to be a perfect sphere.\nIt is in space, so there is no air resistance by default.\nThe hypothesis is that the rings of Chariklo are made from debris, ejected from its rotation, colliding with each other. Because of the above assumptions it is easy to see that energy and momentum is conserved during collision unless it is inelastic."
   },
   {
     "objectID": "posts/char_three/three.html",
@@ -74,7 +74,7 @@
     "href": "posts/chariklo_first/first.html",
     "title": "Chariklo",
     "section": "",
-    "text": "Chariklo\nChariklo, discoverd in 2013, is an asteroid that has a ring, actually two rings. The existence of its rings is very curious as on an intuitive level it’d usually be from planets of great mass that one would expect to find a ring system. So, a rudimentary investigation into how an asteroid might have gotten a ring will be the subject of the next few posts.\n\n\n\nImage of Chariklo taken by the Hubble telescope\n\n\n\n\n\nIllustration of Chariklo on NASA"
+    "text": "Chariklo\nChariklo, discoverd in 2013, is an asteroid that has a ring, actually two rings. The existence of its rings is very curious as on an intuitive level it’d usually be from planets of great mass that one would expect to find a ring system. So, a rudimentary investigation into how an asteroid might have gotten a ring will be the subject of the next few posts.\n\n\n\nImage of Chariklo taken by the Hubble telescope\n\n\n\n\n\nIllustration of Chariklo on NASA\n\n\nThere are many possible ways these rings could have formed. The working hypothesis here is that it is the result of Chariklo’s rotation ejecting dedris which collided to form the rings.\nThe next few pages will be dedicated to some inquiry into this hypothesis."
   },
   {
     "objectID": "posts/code/index.html",
