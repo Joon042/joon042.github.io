@@ -66,6 +66,10 @@
 For the sake of simplicity chariklo is assumed to be a perfect sphere.<br>
 It is in space, so there is no air resistance by default.<br>
 The hypothesis is that the rings of Chariklo are made from debris, ejected from its rotation, colliding with each other. Because of the above assumptions it is easy to see that energy and momentum is conserved during collision unless it is inelastic.</p>
+<p><img src="https://your-website-url.example.com/posts/char_two/.png" class="img-fluid"></p>
+<p>The orbit of an ejected particle follows an ellipse, once it collides with another such particle it would fall into a circular one.</p>
+<p><img src="https://your-website-url.example.com/posts/char_two/.png" class="img-fluid"></p>
+<p>This ellipse-circle transfer is the crux of the hypothesis. And as material gets released and impact each other continuously, this transfer would “fill-in,” so to speak, the rings.</p>
 
 
 </section>
@@ -3487,7 +3491,8 @@ The famous Euler product formula. <img src="https://latex.codecogs.com/png.latex
 <section id="section-3" class="level1">
 <h1>Section 3</h1>
 <p>The derivation of the Gamma function is always never satisfactory. I think I’ll research it myself.<br>
-The Gamma function is in some sense the “natural” way of extending the factorial.</p>
+The Gamma function is in some sense the “natural” way of extending the factorial.<br>
+The factorial function defined for the natural numbers and written like <img src="https://latex.codecogs.com/png.latex?n!"> so. Is the product of</p>
 
 
 </section>

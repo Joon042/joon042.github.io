@@ -30,5 +30,6 @@ $$\sum_{n=1}^{\infty} \frac{1}{n^s} = \prod_{p} \frac{1}{1 - p^{-s}}$$
 # Section 3
 The derivation of the Gamma function is always never satisfactory.
 I think I'll research it myself.  
-The Gamma function is in some sense the "natural" way of extending the factorial.
-
+The Gamma function is in some sense the "natural" way of extending the factorial.  
+The factorial function defined for the natural numbers and written like $n!$ so.
+Is the product of 
