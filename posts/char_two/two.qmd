@@ -6,4 +6,9 @@ categories: ["chariklo"]
 format: html
 ---
 
-# Placeholder
+# Preliminaries
+Here are the assumptions and hypothesis.
+For the sake of simplicity chariklo is assumed to be a perfect sphere.
+It is in space, so there is no air resistance by default.
+The hypothesis is that the rings of Chariklo are made from debris, ejected from its rotation, colliding with each other.
+Because of the above assumptions it is easy to see that energy and momentum is conserved during collision unless it is inelastic.
