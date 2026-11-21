@@ -13,7 +13,7 @@ It is in space, so there is no air resistance by default.
 The hypothesis is that the rings of Chariklo are made from debris, ejected from its rotation, colliding with each other.
 Because of the above assumptions it is easy to see that energy and momentum is conserved during collision unless it is inelastic.
 
-![]()
+![](picture1.png)
 
 The orbit of an ejected particle follows an ellipse, once it collides with
 another such particle it would fall into a circular one.
