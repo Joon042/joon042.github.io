@@ -40,7 +40,17 @@
 
 
 <section id="analysis" class="level1">
-
+<h1>Analysis</h1>
+<p>The ejected material is imparted with the angular velocity of the main body and is released at the surface. With these two piece of information we can determine its apoapsis. Given ejection velocity <img src="https://latex.codecogs.com/png.latex?v_%7B0%7D"> we see that<br>
+<img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Balign*%7D%0A-%5Cfrac%7BGMm%7D%7BR%7D%5C%20+%5C%20%5Cfrac%7Bm%20v_%7B0%7D%7D%7B2%7D%5C%20&amp;=%5C%20-%5Cfrac%7BGMm%7D%7Br_%7Bmax%7D%7D%5C%20+%5C%20%5Cfrac%7Bmv%7D%7B2%7D%5C%5C%0A&amp;%5Ctext%7Band%7D%5C%5C%0AR%20v_%7B0%7D%5C%20&amp;=%5C%20r_%7Bmax%7D%20v%0A%5Cend%7Balign*%7D"><br>
+by conservation of energy and momentum respectively. Where <img src="https://latex.codecogs.com/png.latex?G"> is the universal gravitational constant, <img src="https://latex.codecogs.com/png.latex?R"> is the radius of the asteroid, <img src="https://latex.codecogs.com/png.latex?M"> is its mass, <img src="https://latex.codecogs.com/png.latex?v"> the velocity at apoapsis, and <img src="https://latex.codecogs.com/png.latex?r_%7Bmax%7D"> the distance from the center to the apoapsis.<br>
+Solving this system of equations we see that <img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Balign*%7D%0Ar_%7Bmax%7D%20&amp;=%20%5Cfrac%7BR%5E%7B2%7D%20v_%7B0%7D%5E%7B2%7D%7D%7B-2GM%20+%20R%20v_%7B0%7D%5E%7B2%7D%7D%5C%5C%0Av%20&amp;=%20%5Cfrac%7B2GM%20-%20R%20v_%7B0%7D%5E%7B2%7D%7D%7BR%20v_%7B0%7D%7D%0A%5Cend%7Balign*%7D"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://your-website-url.example.com/posts/char_three/picture3-1.png" class="img-fluid figure-img"></p>
+<figcaption>solving it in mathematica</figcaption>
+</figure>
+</div>
 
 
 </section>
@@ -68,14 +78,14 @@ It is in space, so there is no air resistance by default.<br>
 The hypothesis is that the rings of Chariklo are made from debris, ejected from its rotation, colliding with each other. Because of the above assumptions it is easy to see that energy and momentum is conserved during collision unless it is inelastic.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://your-website-url.example.com/posts/char_two/picture1.png" class="img-fluid figure-img"></p>
+<p><img src="https://your-website-url.example.com/posts/char_two/picture2-1.png" class="img-fluid figure-img"></p>
 <figcaption>Trajectory mapped in Desmos</figcaption>
 </figure>
 </div>
 <p>The orbit of an ejected particle follows an ellipse, once it collides with another such particle it would fall into a circular one.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://your-website-url.example.com/posts/char_two/picture2.png" class="img-fluid figure-img"></p>
+<p><img src="https://your-website-url.example.com/posts/char_two/picture2-2.png" class="img-fluid figure-img"></p>
 <figcaption>w/ particles in mathematica</figcaption>
 </figure>
 </div>

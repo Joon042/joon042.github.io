@@ -77,6 +77,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -159,6 +188,23 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="analysis" class="level1">
 <h1>Analysis</h1>
+<p>The ejected material is imparted with the angular velocity of the main body and is released at the surface. With these two piece of information we can determine its apoapsis. Given ejection velocity <span class="math inline">\(v_{0}\)</span> we see that<br>
+<span class="math display">\[\begin{align*}
+-\frac{GMm}{R}\ +\ \frac{m v_{0}}{2}\ &amp;=\ -\frac{GMm}{r_{max}}\ +\ \frac{mv}{2}\\
+&amp;\text{and}\\
+R v_{0}\ &amp;=\ r_{max} v
+\end{align*}\]</span><br>
+by conservation of energy and momentum respectively. Where <span class="math inline">\(G\)</span> is the universal gravitational constant, <span class="math inline">\(R\)</span> is the radius of the asteroid, <span class="math inline">\(M\)</span> is its mass, <span class="math inline">\(v\)</span> the velocity at apoapsis, and <span class="math inline">\(r_{max}\)</span> the distance from the center to the apoapsis.<br>
+Solving this system of equations we see that <span class="math display">\[\begin{align*}
+r_{max} &amp;= \frac{R^{2} v_{0}^{2}}{-2GM + R v_{0}^{2}}\\
+v &amp;= \frac{2GM - R v_{0}^{2}}{R v_{0}}
+\end{align*}\]</span></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="picture3-1.png" class="img-fluid figure-img"></p>
+<figcaption>solving it in mathematica</figcaption>
+</figure>
+</div>
 
 
 </section>
